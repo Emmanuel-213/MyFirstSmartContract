@@ -28,7 +28,7 @@ I clicked on the deploy and run transactions button and selected the Remix VM (c
 
 I created an empty repository in GitHub and named it “MyFirstSmartContract”, I added the repository as a remote repository to the Remix environment. Under git, I pushed the code to the repository.   
 
-**Implementing Datatypes and Variables**
+**Implementing Data Types and Variables**
 
 I created a struct person variable to store a person's name and their favorite number. I added a Person array to be able to store multiple user's data. I created an enum to check the state of a contract, active and inactive contracts. I created a contractstate variable to store the current contract state and I made sure that it was public. After adding the variables, I compiled and deployed again to make sure that everything is working properly.
 
@@ -47,4 +47,4 @@ I created addFavoriteNumber function to add favorite numbers to the array. I cre
 
 **Compile, Test, and Push to GitHub**
 
-After all these, I clicked on the solidity compiler again and Compile SimpleStorage.sol. The compilation was successful. I clicked on the deploy and run transactions, I checked to ensure that SimpleStorage was written in the CONTRACT before I clicked on deploy. Under console I saw the status after deploying written “Transaction mined and execution succeed”. I tested my functions along as I code, I clicked on Commit and "added second commit" and I finally pushed my code to the GitHub repository.
+After all these, I clicked on the solidity compiler again and Compile SimpleStorage.sol. The compilation was successful. I clicked on the deploy and run transactions, I checked to ensure that SimpleStorage was written in the CONTRACT before I clicked on deploy. Under console I saw the status after deploying written “Transaction mined and execution succeed”. I tested my functions along as I code, I clicked on Commit and "added second commit" and I finally went to COMMANDS under Git and pushed my code to the GitHub repository.
